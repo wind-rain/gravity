@@ -125,7 +125,7 @@ VIRT_ADDR mmuPhysToVirt
     )
     {
     int i;
-
+    int x ;
     for (i = 0; i < sysPhysMemDescNumEnt; i++)
 	{
 	if (((PHYS_ADDR)sysPhysMemDesc[i].physicalAddr <= physAddr) &&
